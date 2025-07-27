@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Guess the Anime by Quote</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎌 Guess the Anime by Quote 🎮</h1>
+
+  <!-- Scoreboard -->
+  <div id="scoreboard">
+    ✅ Correct: <span id="score-correct">0</span> |
+    ❌ Wrong: <span id="score-wrong">0</span>
+  </div>
+
+  <!-- Quote Box -->
+  <div id="quote-box">
+    <p id="quote">Loading quote...</p>
+    <p id="character"></p>
+    <img id="chibi-img" src="" alt="chibi sticker" />
+  </div>
+
+  <!-- Options -->
+  <div id="options"></div>
+
+  <!-- Result and Next -->
+  <p id="result"></p>
+  <button id="nextBtn" style="display: none;">✨ Next Quote ✨</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
